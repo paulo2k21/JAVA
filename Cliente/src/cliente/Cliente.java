@@ -20,9 +20,9 @@ public class Cliente {
 	public void Cliente() {
 		
 		
-		System.out.println(nome);
-		System.out.println(cpf);
-		System.out.println(idade);
+		System.out.println("Nome:" + nome);
+		System.out.println("Cpf:" + cpf);
+		System.out.println("Idade:" + idade);
 	}
 	
 	public void AlterarCliente(String nome, int cpf, int idade) {
@@ -77,6 +77,8 @@ public class Cliente {
 	 
 	  cliente.Cliente();
 	  
+	  System.out.println("*********Modificar cliente**********");
+	  
       System.out.println("Digite seu nome");
 	  
 	  nome = sc.nextLine();
@@ -92,7 +94,7 @@ public class Cliente {
 	  
 	  cliente.AlterarCliente(nome, cpf, idade);
 	  
-	  
+	  System.out.println("***********Cliente modificado****************");
 	  cliente.Cliente();
 }
 	
