@@ -83,19 +83,35 @@ public class Cliente {
 	  
 	  nome = sc.nextLine();
 	  
-	  System.out.println("Digite o nome do CPF");
+	  System.out.println("Digite o CPF");
 	  
 	  cpf = sc.nextInt();
 	  
       System.out.println("Digite sua idade");
 	  
 	  idade = sc.nextInt();
-	  
+	 
 	  
 	  cliente.AlterarCliente(nome, cpf, idade);
 	  
 	  System.out.println("***********Cliente modificado****************");
+	  
 	  cliente.Cliente();
+	  
+	  
+	  System.out.println("***********Modificando nome com Set e Get****************");
+	  
+	  sc.nextLine();
+      System.out.println("Digite seu nome");
+	  
+	  nome = sc.nextLine();
+	  cliente.setNome(nome);
+	  
+	  nome = cliente.getNome();
+	  
+	  
+	  cliente.Cliente();
+	  
 }
 	
 	
