@@ -17,12 +17,24 @@ public class Cliente {
 	
 	
 	
-	public void Cliente () {
+	public void Cliente() {
 		
 		
 		System.out.println(nome);
 		System.out.println(cpf);
 		System.out.println(idade);
+	}
+	
+	public void AlterarCliente(String nome, int cpf, int idade) {
+		
+
+		this.nome = nome;
+		
+		this.cpf = cpf;
+		
+		this.idade = idade;
+		
+		
 	}
 	
 
@@ -58,7 +70,14 @@ public class Cliente {
 	  Scanner sc = new Scanner(System.in);
 	  
 	  
-     System.out.println("Digite seu nome");
+     
+	 
+	  Cliente cliente = new Cliente("Paulo", 000000, 20);
+	  
+	 
+	  cliente.Cliente();
+	  
+      System.out.println("Digite seu nome");
 	  
 	  nome = sc.nextLine();
 	  
@@ -70,12 +89,11 @@ public class Cliente {
 	  
 	  idade = sc.nextInt();
 	  
-	 
-	  Cliente cliente = new Cliente(nome, cpf, idade);
 	  
-	 
+	  cliente.AlterarCliente(nome, cpf, idade);
+	  
+	  
 	  cliente.Cliente();
-	  
 }
 	
 	
