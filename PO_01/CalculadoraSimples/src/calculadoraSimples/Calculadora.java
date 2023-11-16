@@ -43,7 +43,7 @@ public class Calculadora {
 			System.out.println("Opção 4: /");
 			System.out.println("Opção 5: 0");
 			
-			System.out.println("Escolha uma operador matemático para calcular os números ou digite 0 para sair: ");
+			System.out.println("Escolha uma das opções abaixo, digite 0 para sair: ");
 			option = scanner.next().charAt(0);
 		
 			
@@ -69,7 +69,7 @@ public class Calculadora {
 				break;
 				
 				case '0':
-					System.out.println("Programa finalizado.");
+	
 				break;
 				default:
 					System.out.println("Opção inválida");
