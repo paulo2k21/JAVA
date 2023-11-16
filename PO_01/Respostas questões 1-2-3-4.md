@@ -419,7 +419,7 @@ public:
     Celular(string marca) : marca(marca) {}
 };
 
-#4-Quando declaramos uma variável em Java, temos, na verdade, um ponteiro.
+# 4-Quando declaramos uma variável em Java, temos, na verdade, um ponteiro.
 Em C++ é diferente. Discorra sobre esse aspecto. 
 
 
