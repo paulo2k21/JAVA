@@ -1,10 +1,10 @@
-#1 - O que é uma classe em Java e qual é a diferença entre uma classe e um objeto? Dê 5 exemplos mostrando-os em C++ e em Java.
+# 1 - O que é uma classe em Java e qual é a diferença entre uma classe e um objeto? Dê 5 exemplos mostrando-os em C++ e em Java.
 Resposta:
 Em Java, uma classe é um modelo ou plano, semelhante a uma maquete de casa, enquanto um objeto é a instância concreta dessa classe, ou seja, uma casa construída com base no plano. Aqui estão exemplos simples em C++ e Java para ilustrar isso:
 
-##Exemplo 1: Pessoa
+## Exemplo 1: Pessoa
 
-##Java
+## Java
 public class Pessoa {
     private String nome;
     private String cpf;
@@ -31,7 +31,7 @@ public class Pessoa {
     }
 }
 
-##C++
+## C++
 #include <iostream>
 using namespace std;
 
@@ -64,9 +64,9 @@ int main() {
 }
 
 
-##Exemplo 2: Círculo
+## Exemplo 2: Círculo
 
-##Java
+## Java
 public class Circulo {
     double raio;
 
@@ -81,7 +81,7 @@ public class Circulo {
     }
 }
 
-##C++
+## C++
 #include <iostream>
 using namespace std;
 
@@ -101,9 +101,9 @@ int main() {
     return 0;
 }
 
-##Exemplo 3: Livro
+## Exemplo 3: Livro
 
-##Java
+## Java
 public class Livro {
     String titulo;
     String autor;
@@ -120,7 +120,7 @@ public class Livro {
     }
 }
 
-##C++
+## C++
 #include <iostream>
 using namespace std;
 
@@ -142,8 +142,8 @@ int main() {
     return 0;
 }
 
-##Exemplo 4: Conta Bancária
-##Java
+## Exemplo 4: Conta Bancária
+## Java
 public class ContaBancaria {
     String titular;
     double saldo;
@@ -161,7 +161,7 @@ public class ContaBancaria {
 }
 
 
-##C++
+## C++
 #include <iostream>
 using namespace std;
 
@@ -183,8 +183,8 @@ int main() {
     return 0;
 }
 
-##Exemplo 5: Retângulo
-##Java
+## Exemplo 5: Retângulo
+## Java
 public class Retangulo {
     double largura;
     double altura;
@@ -202,7 +202,7 @@ public class Retangulo {
 }
 
 
-##C++
+## C++
 #include <iostream>
 using namespace std;
 
@@ -225,11 +225,11 @@ int main() {
 }
 
 
-#2-Como você declara uma variável em Java e quais são os tipos de dados primitivos mais comuns? Faça um paralelo entre isso e a mesma coisa na linguagem C++.
+# 2-Como você declara uma variável em Java e quais são os tipos de dados primitivos mais comuns? Faça um paralelo entre isso e a mesma coisa na linguagem C++.
 
-##Resposta: 
+## Resposta: 
 
-##Java
+## Java
 public class Main {
 
     public static void main(String[] args) {
@@ -251,7 +251,7 @@ public class Main {
     }
 }
 
-##C++
+## C++
 #include <iostream>
 using namespace std;
 
@@ -272,7 +272,7 @@ int main() {
 }
 
 
-#3-Explique o conceito de herança em Java e como você pode criar uma
+# 3-Explique o conceito de herança em Java e como você pode criar uma
 subclasse a partir de uma classe existente. Faça um paralelo com C++,
 apresentando 5 exemplos. 
 
@@ -419,7 +419,7 @@ public:
     Celular(string marca) : marca(marca) {}
 };
 
-#4-Quando declaramos uma variável em Java, temos, na verdade, um ponteiro.
+# 4-Quando declaramos uma variável em Java, temos, na verdade, um ponteiro.
 Em C++ é diferente. Discorra sobre esse aspecto. 
 
 
