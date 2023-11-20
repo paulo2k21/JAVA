@@ -21,6 +21,7 @@ package atividade1;
 import java.util.Scanner;
 
 import javax.swing.JOptionPane;
+import javax.swing.plaf.synth.SynthToggleButtonUI;
 
 public class Conta {
 	
@@ -96,9 +97,6 @@ public class Conta {
 	Conta conta = new Conta(num, nom, sld);
 	
 	conta.conta();
-	
-	
-	 
 	
 }
  
